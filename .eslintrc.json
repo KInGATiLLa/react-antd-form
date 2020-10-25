@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "extends": [
+    "react-app"
+  ],
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "no-unused-vars": "off"
+  }
+}

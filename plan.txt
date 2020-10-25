@@ -1,0 +1,25 @@
+DynamicField wrapup with Form like
+  <Form submit={submit}>
+    <DynamicField config={config}> // input
+    <DynamicField config={config}> // datepicker
+    <DynamicField config={config}> // select etc.
+  </Form>
+
+Component
+  - (Select)
+    Set api call url in config file
+    prerender option values from api
+  - Custom component registration 
+
+Config field
+  - Base api url || context api url
+  - 
+
+GlobalContext
+  - Base api, cdn url
+  - Library base api, cdn url
+  - Set token value, and update token value
+  - Header prefix (Authorization, X-Auth-Token)
+
+ComponentContext
+  - Set custom components in context

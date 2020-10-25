@@ -1,0 +1,56 @@
+export const Errors = {
+  form: {
+    0: '(DynamicForm) Message:props.data keys and config names are not equal!',
+    1: "(DynamicForm) Message:This {name} is hasn't in your data. Check your data's key name!",
+    2: "(DynamicForm) Message:This config 'rules' property is not 'object' or invalid naming or empty. Check your config!",
+    3: "(DynamicForm) Message:Since label is in multi languages, lang is cannot be 'null' or 'undefined' !",
+  },
+  alert: {
+    0: "Component(FormAlert) Message:When alert config has 'closable' property, you should set property 'duration' in the config!",
+  },
+  anchor: {
+    0: "Component(FormAnchor) Message:This {routerLink} object type is invalid. Please check type of 'string' or 'object' !",
+    1: "Component(FormAnchor) Message:This {link} object type is invalid. Please check type of 'string' !",
+  },
+  array: {},
+  autocomplete: {},
+  button: {
+    0: 'Component(FormButton) Message:config group is not object. Please check your group structure!',
+  },
+  cascader: {},
+  checkbox: {},
+  date: {
+    0: 'Component(FormDate) Message:mode property is not supported!',
+    1: 'Component(FormDate) Message:specificType is required in your config. Check your config!!!',
+    2: "Component(FormDate) Message:{specificType} is not supported type. Check your config's specificType!!",
+  },
+  editor: {},
+  file: {
+    0: 'Component(FormFile) Message:CDN token required!',
+    1: "Component(FormFile) Message:Upload apiOptions's context url or action url required in your config!",
+    2: 'Component(FormFile) Message:CDN token required!',
+  },
+  input: {
+    0: "Component(FormInput) Message:specificType must be 'text', 'search', 'password', 'textarea', 'number', 'mask' !",
+    1: "Component(FormInput) Message:specificType is required and must be 'string' in your config. Please check your config!",
+    2: "Component(FormInput) Message:Since type's 'options' property missing, it is can't create select!",
+    3: "Component(FormInput) Message:type is must be 'string' or 'object'",
+  },
+  inputgroup: {},
+  json: {},
+  map: {},
+  markdown: {},
+  mention: {},
+  paragraph: {},
+  radio: {},
+  rate: {},
+  select: {},
+  slider: {},
+  tag: {
+    0: 'Component(FormTag) Message: specificType is required in your config. Check your config!',
+    1: "Component(FormTag) Message: When specificType is 'checkable'. Config should have 'options' property!",
+  },
+  toggle: {},
+  transfer: {},
+  treeselect: {},
+};
